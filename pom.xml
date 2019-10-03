@@ -255,5 +255,11 @@
       </snapshots>
     </pluginRepository>
   </pluginRepositories>
-
+  <distributionManagement>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>doing testing</name>
+            <url>${env.deploy_server}</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
